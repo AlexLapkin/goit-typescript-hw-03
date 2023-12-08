@@ -4,7 +4,8 @@
   напишіть скорочену ініціалізацію.
 */
 
-class Student {
+/*-- Вихідний код
+ class Student {
   public name: string;
   public age: number;
   public grade: string;
@@ -14,6 +15,12 @@ class Student {
     this.age = age;
     this.grade = grade;
   }
+ }
+ --*/
+
+// Скорочення ініціалізаціі
+class Student {
+ constructor(public name: string, public age: number, public grade: string) {}
 }
 
 export {};
